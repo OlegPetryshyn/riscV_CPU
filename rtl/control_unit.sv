@@ -34,8 +34,10 @@ pc_mux	    output	    1	    selects the next value of the program counter (eithe
 
 
     always_ff @(posedge clk) begin
-
-
+        case (opcode)
+         
+          
+        endcase
     end
 
 
