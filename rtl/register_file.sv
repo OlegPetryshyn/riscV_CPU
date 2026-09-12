@@ -17,7 +17,7 @@ module register_file  import isa_pkg::*;
     input   logic     [REG_ADDR_WIDTH-1:0]      rd,         // destination address 
     input   logic     [XLEN-1:0]                wdata,      // rd pointed data 
     input   logic                               reg_write,  // write enable
-    output  logic    [XLEN-1:0]                 reg_data1,  // 
+    output  logic    [XLEN-1:0]                 reg_data1,   
     output  logic    [XLEN-1:0]                 reg_data2
       
 );
@@ -38,7 +38,7 @@ always_ff @(posedge clk or negedge rset_n) begin   //creates ff and enables auto
                 for(int i=0;i<32;i++) begin // i'm using 32 instead of the power of 
                                             // REG_ADDR_WIDTH to save computational 
                                             // power
-                    register [i]<='0;      // not blocking assignment    
+                    register [i]<='0;    
                 end 
 
                 // write only if red_write enabled and the register is not 5'b0

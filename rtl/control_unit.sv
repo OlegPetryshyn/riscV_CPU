@@ -14,10 +14,10 @@
    input   logic   [6:0] funct7,
    /* verilator lint_off UNUSEDSIGNAL */
    output  logic         alu_sel,     // Selects second alu operand (register or immediate)
-   output  logic   mem_to_reg,        // Enables reading from memory 
-   output  logic   reg_write,         // Enables writing on  registers
-   output  logic   mem_write,         // Enables writing on  memory
-   output  logic   branch,            // Signals a branch to the top level
+   output  logic        mem_to_reg,        // Enables reading from memory 
+   output  logic        reg_write,         // Enables writing on  registers
+   output  logic        mem_write,         // Enables writing on  memory
+   output  logic        branch,            // Signals a branch to the top level
     
     
    output  opcode_alu_e  op_alu       // outputs the enum corresponding the ALU operation 
