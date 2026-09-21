@@ -1,6 +1,6 @@
 ## Risc V CPU 
 
-This project has the objective of creating a single cycle CPU using risc V RS321 architecture.
+This project has the objective of creating a single cycle CPU using riscV-RV321 architecture.
 
 The standard has the sequent rules (taken form the risk V green card)
 
@@ -26,3 +26,7 @@ The next image shows the complete datapath of the single cycle cpu. the CPU uses
 
 # File tree
 the files of the repository are divided in
+
+```bash
+cd tb
+make SIM=verilator WAVES=1
