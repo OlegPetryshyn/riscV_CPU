@@ -1,4 +1,4 @@
-## Risc V CPU 
+# Risc V CPU 
 
 This project has the objective of creating a single cycle CPU using riscV-RV321 architecture.
 
@@ -16,7 +16,7 @@ write of the memory location
 The immediate field is sign-extended in RISC-V
 
 
-## Microarchitecture
+# Microarchitecture
 The next image shows the complete datapath of the single cycle cpu. the CPU uses a Harvard architecture (instead of a Von Neumann one). The choice is necessary for a single cycle implementation, since it is imperative to execute an instruction with the data in a single clok cycle (not possible if the data and instruction memory arent separate).
 
 <p align="center">
