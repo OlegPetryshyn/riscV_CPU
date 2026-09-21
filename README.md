@@ -1,4 +1,4 @@
-# Risc V CPU 
+## Risc V CPU 
 
 This project has the objective of creating a single cycle CPU using risc V RS321 architecture.
 
@@ -22,3 +22,7 @@ The next image shows the complete datapath of the single cycle cpu. the CPU uses
 <p align="center">
   <img src="docs/Datapath Single cycle.svg" alt="RISC-V RV32I Single-Cycle Datapath" width="850"/>
 </p>
+
+
+# File tree
+the files of the repository are divided in
